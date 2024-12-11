@@ -1,0 +1,171 @@
+{
+    "isCoGoEnabled": false,
+    "extent": {
+        "ymin": 789084.0000000075,
+        "xmin": -8145483.000000002,
+        "ymax": 801401.0000000075,
+        "xmax": -8136582,
+        "spatialReference": {
+            "falseM": -100000,
+            "xyTolerance": 0.001,
+            "mUnits": 10000,
+            "zUnits": 10000,
+            "latestWkid": 3857,
+            "zTolerance": 0.001,
+            "wkid": 102100,
+            "xyUnits": 148923141.92838538,
+            "mTolerance": 0.001,
+            "falseX": -20037700,
+            "falseY": -30241100,
+            "falseZ": -100000
+        }
+    },
+    "isDataBranchVersioned": false,
+    "supportsApplyEditsWithGlobalIds": true,
+    "maxRecordCount": 2000,
+    "infoInEstimates": [
+        "extent",
+        "count"
+    ],
+    "datesInUnknownTimezone": false,
+    "type": "Feature Layer",
+    "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+    "syncEnabled": true,
+    "supportsAttachmentsByUploadId": true,
+    "relationships": [],
+    "supportsAttachmentsResizing": true,
+    "cimVersion": "2.9.0",
+    "isDataArchived": false,
+    "id": 0,
+    "supportsStatistics": true,
+    "supportedExportFormats": "sqlite,filegdb",
+    "standardMaxRecordCount": 2000,
+    "isDataVersioned": false,
+    "templates": [],
+    "hasGeometryProperties": true,
+    "supportsAdvancedQueries": true,
+    "parentLayer": null,
+    "currentVersion": 10.91,
+    "canScaleSymbols": false,
+    "hasZ": false,
+    "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": false,
+        "supportedSqlFormatsInCalculate": [
+            "standard"
+        ]
+    },
+    "objectIdField": "fid",
+    "supportsQuantizationEditMode": true,
+    "name": "Comunas",
+    "allowTrueCurvesUpdates": false,
+    "displayField": "area",
+    "supportsCalculate": true,
+    "fields": [
+        {
+            "nullable": false,
+            "defaultValue": null,
+            "editable": false,
+            "length": 4,
+            "type": "esriFieldTypeOID",
+            "modelName": "fid",
+            "domain": null,
+            "name": "fid",
+            "alias": "FID"
+        },
+        {
+            "modelName": "area",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "area",
+            "alias": "AREA",
+            "type": "esriFieldTypeDouble"
+        },
+        {
+            "modelName": "perimeter",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "perimeter",
+            "alias": "PERIMETER",
+            "type": "esriFieldTypeDouble"
+        },
+        {
+            "modelName": "cod_comuna",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "cod_comuna",
+            "length": 3,
+            "alias": "COD_COMUNA",
+            "type": "esriFieldTypeString"
+        },
+        {
+            "modelName": "nombre_cod",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "nombre_cod",
+            "length": 20,
+            "alias": "NOMBRE_COD",
+            "type": "esriFieldTypeString"
+        },
+        {
+            "modelName": "cod_depart",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "cod_depart",
+            "length": 3,
+            "alias": "COD_DEPART",
+            "type": "esriFieldTypeString"
+        },
+        {
+            "modelName": "cod_munici",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "cod_munici",
+            "length": 3,
+            "alias": "COD_MUNICI",
+            "type": "esriFieldTypeString"
+        },
+        {
+            "modelName": "personas_s",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "personas_s",
+            "alias": "PERSONAS_S",
+            "type": "esriFieldTypeDouble"
+        },
+        {
+            "modelName": "nombre_com",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "nombre_com",
+            "length": 120,
+            "alias": "NOMBRE_COM",
+            "type": "esriFieldTypeString"
+        },
+        {
+            "modelName": "shape_leng",
+            "nullable": true,
+            "editable": true,
+            "defaultValue": null,
+            "domain": null,
+            "name": "shape_leng",
+            "alias": "Shape_Leng",
+            "type": "esriFieldTypeDouble"
+        }
+    ]
+}
